@@ -12,6 +12,7 @@ import clsx from "clsx";
 import Offices from "./Offices";
 import SocialMedia from "./SocialMedia";
 import Footer from "./Footer";
+import Particles from "./particles";
 
 const Header = ({
   panelId,
@@ -27,7 +28,7 @@ const Header = ({
       <div className="flex items-center justify-between">
         {/* Logo */}
         <Link href={"/"} aria-label="Home">
-          <Logo invert={invert}>Abdullah Agency</Logo>
+          <Logo invert={invert}> Arif Group</Logo>
         </Link>
         <div className="flex items-center gap-x-8">
           <Button href={"/contact"} invert={invert}>
@@ -85,18 +86,19 @@ const Navigation = () => {
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
-        <NavigationItem href="/work">Our Work</NavigationItem>
-        <NavigationItem href="/about">About Us</NavigationItem>
+        <NavigationItem href="/work">Arif Metal</NavigationItem>
+        <NavigationItem href="/about">Arif Fabrication Works</NavigationItem>
       </NavigationRow>
       <NavigationRow>
-        <NavigationItem href="/process">Our Process</NavigationItem>
-        <NavigationItem href="/blog">Blog</NavigationItem>
+      <NavigationItem href="/blog">Arif Shed Works</NavigationItem>
+        <NavigationItem href="/process">Arif Interiror & Exterior</NavigationItem>
       </NavigationRow>
     </nav>
   );
 };
 
-const RootLayoutInner = ({ children }) => {
+const RootLayoutInner = ({ children }) => 
+{
   const panelId = useId();
   const [expanded, setExpanded] = useState(false);
   const openRef = useRef();
@@ -125,6 +127,7 @@ const RootLayoutInner = ({ children }) => {
         >
           {/* Header */}
           <Header
+          
             panelId={panelId}
             icon={HiMenuAlt4}
             toggleRef={openRef}
@@ -207,7 +210,8 @@ const RootLayoutInner = ({ children }) => {
 
 const RootLayout = ({ children }) => {
   const pathName = usePathname();
-  return <RootLayoutInner key={pathName}>{children}</RootLayoutInner>;
+  return <RootLayoutInner key={pathName}>
+  {children}</RootLayoutInner>;
 };
 
 export default RootLayout;

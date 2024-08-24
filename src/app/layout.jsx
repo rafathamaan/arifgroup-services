@@ -1,10 +1,11 @@
 import RootLayout from "@/components/RootLayout";
 import "./globals.css";
 
+
 export const metadata = {
   title: {
-    template: "Abdullah",
-    default: "Abdullah",
+    template: "Arif Group | Services",
+    default: "Arif Group | Services",
   },
 };
 

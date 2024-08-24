@@ -1,19 +1,18 @@
 import PageIntro from "@/components/PageIntro";
 import React from "react";
+import Ssaccessories from "@/components/ssaccessories";
+import Sspipes from "@/components/sspipes";
+import Cnc from "@/components/cnc";
 
 const WorkPage = () => {
   return (
     <>
-      <PageIntro
-        eyebrow="Our work"
-        title="Proven solutions for real-world problems."
+      <PageIntro centered='0'
+        eyebrow="SS Pipes and Tubes"
+        title="Arif Metal Sales."
       >
-        <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
-        </p>
       </PageIntro>
+      <Sspipes/>
     </>
   );
 };
