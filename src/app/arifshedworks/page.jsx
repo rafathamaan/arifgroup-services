@@ -36,7 +36,7 @@ const ProcessPage = () => {
       </Container>
       <FadeIn className={clsx("text-center")} >
         <Button
-          className="mt-14 bg-green-500 hover:underline hover:bg-green-600 text-bold "
+          className="mt-14 bg-blue-500 hover:underline hover:bg-green-600 text-bold "
           target="_blank" 
             href="https://ariffabrications.arifgroup.in">
               Click to See Full Catalogue

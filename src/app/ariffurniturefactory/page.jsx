@@ -23,7 +23,7 @@ const BlogPage = () => {
 
           <StatListItem value="Dining Table" label="4 Seater - 6 Seater" />
           
-          <StatListItem value="Sofa-Set" label="4 Seater - Sofa Bed" />
+          <StatListItem value="Sofa-Set" label="5 Seater - Sofa Bed" />
           <StatListItem value="Swings" label="Designer - With Roof" />
          
         </StatList>
