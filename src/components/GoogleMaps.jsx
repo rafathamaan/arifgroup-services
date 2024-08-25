@@ -8,7 +8,11 @@ const MyGoogleMaps = () => {
   const mapContainerStyle = {
     width: "100%",
     height: "55vh",
+    borderRadius: "10px", 
+    overflow: "hidden", 
+
   };
+
 
   const center = {
     lat: 17.1392727,
