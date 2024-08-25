@@ -35,12 +35,13 @@ const BlogPage = () => {
               Click to See Full Catalogue
           </Button>
           </FadeIn>
-        <Beds/>
+        
+        
+      </Container>
+      <Beds/>
         <Diningtables/>
         <Sofaset/>
         <ScrollToTop/>
-        
-      </Container>
     </>
   );
 };
