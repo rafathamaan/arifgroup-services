@@ -1,4 +1,3 @@
-"use client"
 import Clients from "@/components/Clients";
 import ContactSection from "@/components/ContactSection";
 import Container from "@/components/Container";
@@ -14,7 +13,8 @@ import Cultures from "@/components/Cultures";
 import Discover from "@/components/Discover";
 import Build from "@/components/Build";
 import Deliver from "@/components/Deliver";
-import Button from "@/components/Button";import clsx from "clsx";
+import Button from "@/components/Button";
+import clsx from "clsx";
 
 
 export default function Home() {
