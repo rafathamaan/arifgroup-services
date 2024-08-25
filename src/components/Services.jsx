@@ -6,7 +6,7 @@ import StylizedImage from "./StylizedImage";
 import imagegrade from "../images/imagegrade.jpg";
 import imageguage from "../images/laptop.jpg";
 import List, { ListItem } from "./List";
-import Image from "next/Image"
+import Image from "next/Image";
 import Certificates from "./Certificates";
 import { TagList, TagListItem } from "./TagList";
 const Services = () => {
