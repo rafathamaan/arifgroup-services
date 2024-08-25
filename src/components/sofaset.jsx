@@ -31,7 +31,7 @@ const Sofaset = () => {
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-3xl font-semibold tracking-wider text-white sm:text-left">
-           Sofaset - 4 Seater and Foldable
+           Sofaset - 5 Seater and Foldable
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>

@@ -9,7 +9,7 @@ const ContactDetails = () => {
   return (
     <FadeIn>
       <h2 className="font-display text-base font-semibold text-neutral-950">
-        Our office
+      Our office
       </h2>
       <Offices className="mt-10 grid grid-cols-1 gap-8 sm:grid-cols-2" />
       <Border className="mt-16 pt-16">

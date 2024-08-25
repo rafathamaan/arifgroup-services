@@ -41,14 +41,15 @@ const Services = () => {
           </div>
           {/* List item */}
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
+          <ListItem title="202 Grade">
+            A cost-effective alternative to 304, with good corrosion resistance and toughness. It contains lower nickel content, which makes it slightly less corrosion-resistant but more economical.<br/><br/>
+            Often used in budget-conscious construction projects, Great for budget-friendly options like interior partitions, railings, and decorative trim.
+            </ListItem>
             <ListItem title="304 Grade">
             The most versatile and widely used stainless steel. It has excellent forming and welding characteristics, along with strong corrosion resistance.<br/><br/>
             Ideal for architectural features, handrails, cladding, and structural components that require corrosion resistance and a sleek finish. It’s widely used in building facades, roofing, and decorative elements.
             </ListItem>
-            <ListItem title="202 Grade">
-            A cost-effective alternative to 304, with good corrosion resistance and toughness. It contains lower nickel content, which makes it slightly less corrosion-resistant but more economical.<br/><br/>
-            Often used in budget-conscious construction projects, Great for budget-friendly options like interior partitions, railings, and decorative trim.
-            </ListItem>
+            
             <ListItem title="316 Grade">
             Known for its enhanced resistance to corrosion, particularly against chlorides and industrial solvents. It’s stronger than 304 and is often used in more demanding environments.<br/><br/>
             Best for coastal or high-moisture areas, perfect for exterior fixtures, outdoor kitchens, and marine-related structures.

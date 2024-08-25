@@ -22,6 +22,7 @@ const Offices = ({ invert = false, ...props }) => {
     <ul role="list" {...props}>
       <li>
         <Office name="Arif Fabrication Works" invert={invert}>
+        GST: 36ANRPM3315JIZP <br/>
           Near Khammam X road
           <br />
           Nh-65, Suryapet, 508213
