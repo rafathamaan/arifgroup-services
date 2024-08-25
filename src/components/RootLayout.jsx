@@ -12,7 +12,7 @@ import clsx from "clsx";
 import Offices from "./Offices";
 import SocialMedia from "./SocialMedia";
 import Footer from "./Footer";
-import Particles from "./particles";
+
 
 const Header = ({
   panelId,

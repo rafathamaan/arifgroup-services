@@ -1,3 +1,4 @@
+"use client"
 import Clients from "@/components/Clients";
 import ContactSection from "@/components/ContactSection";
 import Container from "@/components/Container";
@@ -6,10 +7,6 @@ import Services from "@/components/Services";
 import Testimonials from "@/components/Testimonials";
 import logolight from "/public/light.png";
 import Certificates from "@/components/Certificates";
-import Cnc from "@/components/cnc";
-import Ssaccessories from "@/components/ssaccessories"; 
-import Sspipes from "@/components/sspipes"
-import Particles from "@/components/particles";
 import PageIntro from "@/components/PageIntro";
 import Image from "next/image";
 import glass from "src/images/glasstypes.png"
@@ -17,13 +14,14 @@ import Cultures from "@/components/Cultures";
 import Discover from "@/components/Discover";
 import Build from "@/components/Build";
 import Deliver from "@/components/Deliver";
-import Button from "@/components/Button";
+import Button from "@/components/Button";import clsx from "clsx";
 
 
 export default function Home() {
   return (
     
     <main className="text-black  ">
+      
       <Container className="mt-24 sm:mt-32">
         <FadeIn className="max-w-3xl">
           <h1 className="font-display text-5xl font-medium tracking-tight text-neutral-950 [text-wrap:balance] sm:text-7xl">
@@ -34,7 +32,7 @@ export default function Home() {
           From Sales to After-Sales Service, we ensure that your Projects are completed on Time, within Budget, and to the Highest Quality Standards of the Market.
           </p>
           <Button
-          className="mt-14 text-green-500 text-bold hover:bg-green-500 hover:text-white "
+          className="mt-14 text-green-400 text-bold hover:bg-green-400 hover:text-white "
           target="_blank" 
             href="https://www.arifgroup.in">
               Click to See Full Catalogue
