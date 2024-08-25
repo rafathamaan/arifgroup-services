@@ -32,7 +32,7 @@ const Header = ({
         </Link>
         <div className="flex items-center gap-x-8">
         
-          <Button className={"text-green-500"} href={"/contact"} invert={invert}>
+          <Button className={"bg-neutral-950"} href={"/contact"} invert={invert}>
             Contact us
           </Button>
           <button

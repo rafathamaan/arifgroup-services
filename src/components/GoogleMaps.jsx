@@ -48,7 +48,6 @@ const MyGoogleMaps = () => {
           position={center}
           onClick={handleMarkerClick}
           label={{
-            text: "Arif Metal",
              // Replace with your business name
             fontSize: "20px",
             fontWeight: "bold",
@@ -59,9 +58,11 @@ const MyGoogleMaps = () => {
       <div className="text-center mt-10">
         <button
           onClick={handleNavigateClick}
-          className="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-blue-700"
+          className="bg-blue-500  text-white px-4 py-2 rounded-full hover:bg-blue-700"
         >
+          <strong>
           Start Navigation
+          </strong>
         </button>
       </div>
       </FadeIn>

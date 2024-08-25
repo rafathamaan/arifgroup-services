@@ -34,7 +34,7 @@ export default function Home() {
           From Sales to After-Sales Service, we ensure that your Projects are completed on Time, within Budget, and to the Highest Quality Standards of the Market.
           </p>
           <Button
-          className="mt-14 bg-blue-600 text-bold hover:bg-green-400 hover:text-white "
+          className="mt-14  text-semibold hover:bg-green-400 hover:text-white "
           target="_blank" 
             href="https://www.arifgroup.in">
               Click to See Our Full Catalogue

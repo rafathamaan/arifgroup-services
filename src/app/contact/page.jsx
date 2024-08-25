@@ -10,7 +10,7 @@ const ContactPage = () => {
   return (
     <>
       <PageIntro eyebrow="" title="Contact Us">
-        <p>We can not wait to hear from you.</p>
+        <p>We cannot wait to hear from you.</p>
       </PageIntro>
       <Container className="mt-20 sm:mt-20 lg:mt-20">
       <div className="flex flex-wrap lg:flex-nowrap">
