@@ -20,13 +20,13 @@ const certificates = [
 
 const Certificates = () => {
   return (
-    <div className="mt-10 bg-neutral-950 rounded-4xl  py-20 sm:mt-12 sm:py-22 lg:mt-56">
+    <div className="mt-10 bg-neutral-950 rounded-4xl  py-20 sm:mt-12 sm:py-22 lg:mt-36">
       <Container>
         <FadeIn className="flex items-center gap-x-8">
-          <h2 className="text-center font-display text-2xl font-semibold tracking-wider text-white  sm:text-left">
+          {/* <h2 className="text-center font-display text-2xl font-semibold tracking-wider text-white  sm:text-left">
             We are Ceritified
           </h2>
-          <div className="h-px flex-auto bg-neutral-800" />
+          <div className="h-px flex-auto bg-neutral-800" /> */}
         </FadeIn>
         <FadeInStagger faster>
           <ul

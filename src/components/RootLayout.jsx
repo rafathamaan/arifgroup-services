@@ -31,6 +31,7 @@ const Header = ({
           <Logo invert={invert}> Arif Group</Logo>
         </Link>
         <div className="flex items-center gap-x-8">
+        
           <Button href={"/contact"} invert={invert}>
             Contact us
           </Button>
@@ -86,12 +87,12 @@ const Navigation = () => {
   return (
     <nav className="mt-px font-display text-5xl font-medium tracking-tight text-white">
       <NavigationRow>
-        <NavigationItem href="/work">Arif Metal</NavigationItem>
-        <NavigationItem href="/about">Arif Fabrication Works</NavigationItem>
+        <NavigationItem href="/arifmetal">Arif Metal</NavigationItem>
+        <NavigationItem href="/ariffabrications">Arif Fabrication Works</NavigationItem>
       </NavigationRow>
       <NavigationRow>
-      <NavigationItem href="/blog">Arif Shed Works</NavigationItem>
-        <NavigationItem href="/process">Arif Interiror & Exterior</NavigationItem>
+      <NavigationItem href="/ariffurniturefactory">Arif Furniture Factory</NavigationItem>
+        <NavigationItem href="/arifshedworks">Arif Shed Works </NavigationItem>
       </NavigationRow>
     </nav>
   );

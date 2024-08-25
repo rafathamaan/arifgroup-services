@@ -1,10 +1,7 @@
 import Image from "next/image";
-import logoBrightPath from "../images/clients/bright-path/logo-light.svg";
+
 import logoFamilyFund from "../images/clients/santosh/JSL-LOGO.webp";
-import logoGreenLife from "../images/clients/green-life/logo-light.svg";
-import logoHomeWork from "../images/clients/home-work/logo-light.svg";
 import logoMailSmirk from "../images/clients/santosh/images.png";
-import logoNorthAdventures from "../images/clients/north-adventures/logo-light.svg";
 import logoPhobiaLight from "../images/clients/santosh/logomark-light.png";
 import logoUnseal from "../images/clients/santosh/images.jpeg";
 import Container from "./Container";

@@ -8,6 +8,7 @@ import imageguage from "../images/laptop.jpg";
 import List, { ListItem } from "./List";
 import Image from "next/Image"
 import Certificates from "./Certificates";
+import { TagList, TagListItem } from "./TagList";
 const Services = () => {
   return (
     <>
@@ -19,6 +20,13 @@ const Services = () => {
         <p>
       Offering a wide range of grades and gauges to meet your needs in durability, corrosion resistance, and aesthetic appeal.
         </p>
+        <TagList className="mt-4">
+        <TagListItem>Square Bars</TagListItem>
+        <TagListItem>Rectangular Bars</TagListItem>
+        <TagListItem>Flat Sheets</TagListItem>
+        <TagListItem>Round Bars</TagListItem>
+        
+      </TagList>
       </SectionIntro>
       <Container className="mt-16">
         <div className="lg:flex lg:items-center lg:justify-end">
@@ -53,12 +61,19 @@ const Services = () => {
         title="Guages We Offer"
       className="mt-24 sm:mt-32 lg:mt-40 "
       >
-        <p>
+        {/* <p>
         •  Square Bars
         •  Rectangular Bars
         •  Flat Sheets
         •  Round Bars
-        </p>
+        </p> */}
+        <TagList className="mt-4">
+        <TagListItem>14 Guage</TagListItem>
+        <TagListItem>16 Guage</TagListItem>
+        <TagListItem>18 Guage</TagListItem>
+        <TagListItem>20 Guage</TagListItem>
+        
+      </TagList>
       </SectionIntro>
       <Container className="">
         <div className="lg:flex lg:items-center lg:justify-end">
@@ -91,9 +106,9 @@ const Services = () => {
         </div>
       </Container>
       <SectionIntro
-        eyebrow="Services"
+        eyebrow=""
         title=" Premium Galvanised Iron Solutions:"
-        className="mt-24 sm:mt-32 lg:mt-40"
+        className=" mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
         We offer high-quality Galvanized Iron (GI) materials, known for their exceptional corrosion resistance and durability.

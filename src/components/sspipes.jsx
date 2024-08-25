@@ -10,6 +10,7 @@ import h from "src/images/sspipes/8.jpeg";
 import Container from "./Container";
 import FadeIn, { FadeInStagger } from "./FadeIn";
 import clsx from "clsx";
+import Button from "./Button";
 
 
 const sspipes = [
@@ -26,10 +27,10 @@ const sspipes = [
 
 const Sspipes = () => {
   return (
-    <div className="mt-10 rounded-4xl bg-neutral-950 py-20 sm:mt-12 sm:py-22 lg:mt-56">
+    <div className="mt-10 rounded-4xl bg-neutral-950 py-20 text-center sm:mt-12 sm:py-22 lg:mt-56">
       <Container>
         <FadeIn className="flex items-center gap-x-8">
-          <h2 className="text-center font-display text-2xl font-semibold tracking-wider text-white sm:text-left">
+          <h2 className="text-center font-display text-3xl font-semibold tracking-wider sm:text-left">
           Stainless-Steel Pipes and Tubes
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
@@ -47,13 +48,9 @@ const Sspipes = () => {
               </li>
             ))}
           </ul>
-          <a
-  href="https://arifmetal.arifgroup.in"
-  target="_blank"
-  className={clsx("text-white underline font-display tracking-wider text-xl")}
-><br/><br/>
-  Click to View More Photos
-</a>
+          <Button className={"bg-blue-500 text-bold mt-10 text-xl hover:bg-green-500 hover:underline "} href={"https://ariffabrications.arifgroup.in"}target="_blank" >
+            Click to Open Catalogue
+          </Button>
         </FadeInStagger>
         
       </Container>
