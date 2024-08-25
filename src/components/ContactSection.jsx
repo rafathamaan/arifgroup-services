@@ -3,6 +3,8 @@ import Container from "./Container";
 import FadeIn from "./FadeIn";
 import Button from "./Button";
 import Offices from "./Offices";
+import logo from "public/dark.png";
+import Image from "next/image";
 
 const ContactSection = () => {
   return (
@@ -16,6 +18,9 @@ const ContactSection = () => {
             <Button href={"/contact"} invert>
               Say Hello
             </Button>
+          </div>
+          <div className="mt-6 flex justify-end"> {/* Updated to justify-end */}
+            <Image src={logo} alt="Company Logo" width={100} height={100} />
           </div>
           <div className="mt-10 border-t border-white/10 pt-10">
             <h3 className="font-display text-base font-semibold text-white">
