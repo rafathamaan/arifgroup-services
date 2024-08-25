@@ -22,7 +22,6 @@ const ContactPage = () => {
           </div>
         </div>
         <ScrollToTop/>
-
       </Container>
      
     </>
