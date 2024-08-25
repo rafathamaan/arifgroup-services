@@ -15,6 +15,8 @@ import Build from "@/components/Build";
 import Deliver from "@/components/Deliver";
 import Button from "@/components/Button";
 import clsx from "clsx";
+import ScrollToTop from "@/components/ScrollToTop";
+
 
 
 export default function Home() {
@@ -32,10 +34,10 @@ export default function Home() {
           From Sales to After-Sales Service, we ensure that your Projects are completed on Time, within Budget, and to the Highest Quality Standards of the Market.
           </p>
           <Button
-          className="mt-14 text-green-400 text-bold hover:bg-green-400 hover:text-white "
+          className="mt-14 bg-blue-600 text-bold hover:bg-green-400 hover:text-white "
           target="_blank" 
             href="https://www.arifgroup.in">
-              Click to See Full Catalogue
+              Click to See Our Full Catalogue
           </Button>
         </FadeIn>
       </Container>
@@ -75,8 +77,8 @@ export default function Home() {
         className="mt-24 sm:mt-32 lg:mt-40 "
         client={{ name: "logolight", logo: logolight ,logoStyle: { width: 50 } }}
       >At Arif Group, we specialize in providing Top-notch Metal Fabrication, Furniture Manufacturing, Shed-Works, and Comprehensive Interior and Exterior Services. Whether you&apos;re looking for High-Quality products or expert solutions, our experienced team is extremely dedicated to meeting all your needs with excellence and precision.
-       
       </Testimonials>
+      <ScrollToTop/>
       <ContactSection />
       
     </main>

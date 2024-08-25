@@ -6,6 +6,10 @@ import {
   BsGithub,
   BsYoutube,
   BsLinkedin,
+  BsWhatsapp,
+  BsPhone,
+  BsTelephoneInbound,
+  BsTelephone,
 } from "react-icons/bs";
 
 export const SocialMediaProfiles = [
@@ -14,21 +18,15 @@ export const SocialMediaProfiles = [
     href: "https://www.youtube.com/watch?v=eAswnbWptBM",
     icon: BsYoutube,
   },
-  { title: "GitHub", href: "https://github.com/chrhi", icon: BsGithub },
   {
-    title: "Facebook",
-    href: "https://www.facebook.com/profile.php?id=100010070348939",
-    icon: BsFacebook,
+    title: "Whatsapp",
+    href: "https://wa.me/9394098658",
+    icon: BsWhatsapp,
   },
   {
-    title: "linkedin",
-    href: "https://www.linkedin.com/in/chehri-abdellah-4a8858267/",
-    icon: BsLinkedin,
-  },
-  {
-    title: "Twitter",
-    href: "https://twitter.com/KING_IN_JUNGLE",
-    icon: BsTwitter,
+    title: "Phone",
+    href: "tel:9394098658",
+    icon: BsTelephone,
   },
 ];
 
@@ -49,7 +47,7 @@ const SocialMedia = ({ className, invert = false }) => {
             aria-label={item.title}
             className={clsx(
               "transition",
-              invert ? "hover:text-neutral-200" : "hover:text-neutral-700"
+              invert ? "hover:text-neutral-200" : "hover:text-blue-700"
             )}
           >
             <item.icon className="h-6 w-6 fill-current" />

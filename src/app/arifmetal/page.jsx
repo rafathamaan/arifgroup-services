@@ -8,6 +8,7 @@ import { StatList,StatListItem } from "@/components/StatList";
 import FadeIn from "@/components/FadeIn";
 import Button from "@/components/Button";
 import clsx from "clsx";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const WorkPage = () => {
   return (
@@ -36,6 +37,7 @@ const WorkPage = () => {
       <Sspipes/>
       <Ssaccessories/>
       <Cnc/>
+      <ScrollToTop/>
       
       
     </>

@@ -10,6 +10,11 @@ import React from "react";
 import clsx from "clsx";
 import Button from "@/components/Button";
 import FadeIn from "@/components/FadeIn";
+import Tensile from "@/components/tensile";
+import Metal from "@/components/metal";
+import Ceramic from "@/components/ceramic";
+import Polycarbonate from "@/components/polycarbonate";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const ProcessPage = () => {
   return (
@@ -27,19 +32,21 @@ const ProcessPage = () => {
           <StatListItem value="Ceramic" label="Excellent Insulation" />
           <StatListItem value="Polycarbonate" label="Lightweight" />
         </StatList>
-        {/* Pyramid - Hut - Flat -  */}
-        <FadeIn className={clsx("text-center")} >
+      
+      </Container>
+      <FadeIn className={clsx("text-center")} >
         <Button
-          className="mt-14 hover:underline hover:bg-green-500 bg-blue-500 text-bold "
+          className="mt-14 bg-green-500 hover:underline hover:bg-green-600 text-bold "
           target="_blank" 
-            href="https://www.arifgroup.in">
+            href="https://ariffabrications.arifgroup.in">
               Click to See Full Catalogue
           </Button>
           </FadeIn>
-      </Container>
-
-      <Values />
-      <ContactSection />
+          <Tensile/>
+          <Metal/>
+          <Ceramic/>
+          <Polycarbonate/>      <ContactSection />
+          <ScrollToTop/>
     </>
   );
 };

@@ -4,6 +4,7 @@ import Container from "@/components/Container";
 import Diningtables from "@/components/diningtables";
 import FadeIn from "@/components/FadeIn";
 import PageIntro from "@/components/PageIntro";
+import ScrollToTop from "@/components/ScrollToTop";
 import Sofaset from "@/components/sofaset";
 import { StatList, StatListItem } from "@/components/StatList";
 import clsx from "clsx";
@@ -37,7 +38,7 @@ const BlogPage = () => {
         <Beds/>
         <Diningtables/>
         <Sofaset/>
-        
+        <ScrollToTop/>
         
       </Container>
     </>
