@@ -1,6 +1,7 @@
 import { navigation } from "@/constants";
 import Link from "next/link";
-
+import Image from "next/image";
+import logo from "public/light.png"; // Make sure to replace this with the correct path to your logo
 
 const FooterNavigation = () => {
   return (
@@ -26,7 +27,13 @@ const FooterNavigation = () => {
             </ul>
           </li>
         ))}
-        
+          <li className="col-span-2 sm:col-span-1">
+          <div className="flex items-right
+           space-x-4">
+            <Image src={logo} alt="Company Logo" width={100} height={100} />
+            
+          </div>
+        </li>
       
       </ul>
     </nav>

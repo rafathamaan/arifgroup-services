@@ -4,7 +4,7 @@ function Office({ name, children, invert = false }) {
   return (
     <address
       className={clsx(
-        "text-sm not-italic hover:text-blue-500 ",
+        "text-sm not-italic hover:text-blue-500s ",
         invert ? "text-neutral-300" : "text-neutral-600"
       )}
     >
