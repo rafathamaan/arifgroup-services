@@ -4,7 +4,7 @@ function Office({ name, children, invert = false }) {
   return (
     <address
       className={clsx(
-        "text-sm not-italic",
+        "text-sm not-italic hover:text-blue-500 ",
         invert ? "text-neutral-300" : "text-neutral-600"
       )}
     >
@@ -21,19 +21,22 @@ const Offices = ({ invert = false, ...props }) => {
   return (
     <ul role="list" {...props}>
       <li>
-        <Office name="U.S.A" invert={invert}>
-          on bay mark
+        <Office name="Arif Fabrication Works" invert={invert}>
+          Near Khammam X road
           <br />
-          Newtown city of Las Vegas
+          Nh-65, Suryapet, 508213
+          <br />
+          Telangana, India
         </Office>
       </li>
       <li>
-        <Office name="London" invert={invert}>
-          13 long Street
-          <br />
-          Downtown, Allyway
+        <Office name="Call" invert={invert}>
+          +91 9394098658
+          
         </Office>
       </li>
+     
+     
     </ul>
   );
 };

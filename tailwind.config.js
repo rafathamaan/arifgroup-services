@@ -1,3 +1,4 @@
+const { BsJustify } = require("react-icons/bs");
 const defaultTheme = require("tailwindcss/defaultTheme");
 /** @type {import('tailwindcss').Config} */
 module.exports = {

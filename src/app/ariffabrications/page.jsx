@@ -13,6 +13,7 @@ import Grills from "@/components/grills";
 import Button from "@/components/Button";
 import clsx from "clsx";
 import FadeIn from "@/components/FadeIn";
+import ScrollToTop from "@/components/ScrollToTop";
 
 
 const AboutPage = () => {
@@ -49,6 +50,7 @@ const AboutPage = () => {
         <Glassrailings/>
         <Grills/>
         <ContactSection />
+        <ScrollToTop/>
     </>
   );
 };
