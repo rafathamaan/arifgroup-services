@@ -1,6 +1,6 @@
 import RootLayout from "@/components/RootLayout";
 import "./globals.css";
-
+import { Analytics } from "@vercel/analytics/react"
 
 export const metadata = {
   title: {
@@ -17,6 +17,7 @@ export default function Layout({ children }) {
     >
       <body className="flex min-h-full flex-col">
         <RootLayout>{children}</RootLayout>
+        <Analytics />
       </body>
     </html>
   );
