@@ -76,7 +76,7 @@ export default function Home() {
                 <Testimonials
         className="mt-24 sm:mt-32 lg:mt-40 "
         client={{ name: "logolight", logo: logolight ,logoStyle: { width: 50 } }}
-      >At Arif Group, we specialize in providing Top-notch Metal Fabrication, Furniture Manufacturing, Shed-Works, and Comprehensive Interior and Exterior Services. Whether you&apos;re looking for High-Quality products or expert solutions, our experienced team is extremely dedicated to meeting all your needs with excellence and precision.
+      >At Arif Group, Whether you&apos;re looking for High-Quality products or expert solutions, our experienced team is extremely dedicated to meeting all your needs with excellence and precision.
       </Testimonials>
       <ScrollToTop/>
       <ContactSection />

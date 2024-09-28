@@ -4,6 +4,7 @@ import Container from "./Container";
 import FadeIn from "./FadeIn";
 import StylizedImage from "./StylizedImage";
 import imagegrade from "../images/imagegrade.jpg";
+import ss from "../images/ss.jpg";
 import imageguage from "../images/laptop.jpg";
 import List, { ListItem } from "./List";
 import Image from "next/image";
@@ -33,7 +34,7 @@ const Services = () => {
           <div className="flex justify-center lg:w-1/2 lg:justify-end lg:pr-12">
             <FadeIn className="w-[33.75rem] flex-none lg:w-[45rem]">
               <StylizedImage
-                src={imagegrade}
+                src={ss}
                 sizes="(min-width: 1024px) 41rem, 31rem"
                 className="justify-center lg:justify-end"
               />

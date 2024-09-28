@@ -12,15 +12,17 @@ import {
   BsTelephone,
 } from "react-icons/bs";
 
+
+
 export const SocialMediaProfiles = [
   {
     title: "Youtube",
-    href: "https://www.youtube.com/watch?v=eAswnbWptBM",
+    href: "/comingsoon",
     icon: BsYoutube,
   },
   {
     title: "Whatsapp",
-    href: "https://wa.me/9394098658",
+    href: "https://wa.me/9394098658?text=Hello!%20I've%20seen%20your%20website%20and%20I'm%20interested%20in%20your%20service.",
     icon: BsWhatsapp,
   },
   {

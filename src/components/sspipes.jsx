@@ -3,10 +3,7 @@ import a from "src/images/sspipes/1.jpeg";
 import b from "src/images/sspipes/2.jpeg";
 import c from "src/images/sspipes/3.jpeg";
 import d from "src/images/sspipes/4.jpeg";
-import e from "src/images/sspipes/5.jpeg";
-import f from "src/images/sspipes/6.jpeg";
-import g from "src/images/sspipes/7.jpeg";
-import h from "src/images/sspipes/8.jpeg";
+
 import Container from "./Container";
 import FadeIn, { FadeInStagger } from "./FadeIn";
 import clsx from "clsx";
@@ -18,10 +15,7 @@ const sspipes = [
   ["b", b],
   ["c", c],
   ["d", d],
-  ["e", e],
-  ["f", f],
-  ["g", g],
-  ["h", h],
+  
  
 ];
 
@@ -31,7 +25,7 @@ const Sspipes = () => {
       <Container>
         <FadeIn className="flex items-center gap-x-8">
           <h2 className="text-center font-display text-3xl font-semibold tracking-wider sm:text-left">
-          Stainless-Steel Pipes and Tubes
+         Metal Pipes
           </h2>
           <div className="h-px flex-auto bg-neutral-800" />
         </FadeIn>

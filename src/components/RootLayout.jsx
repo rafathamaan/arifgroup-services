@@ -87,11 +87,11 @@ const Navigation = () => {
   return (
     <nav className="mt-px font-display text-4xl font-medium tracking-tight text-white ">
       <NavigationRow>
-        <NavigationItem href="/arifmetal">Arif Metal</NavigationItem>
+        <NavigationItem href="/arifmetal">Arif Metal Sales</NavigationItem>
         <NavigationItem href="/ariffabrications">Arif Fabrication Works</NavigationItem>
       </NavigationRow>
       <NavigationRow>
-      <NavigationItem href="/ariffurniturefactory">Arif Furniture Factory</NavigationItem>
+      <NavigationItem href="/ariffurniturefactory">Arif Furniture Works</NavigationItem>
         <NavigationItem href="/arifshedworks">Arif Shed Works </NavigationItem>
       </NavigationRow>
     </nav>
