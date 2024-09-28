@@ -16,8 +16,11 @@ const WorkPage = () => {
       <PageIntro 
       centered="1"
         eyebrow=""
-        title="Arif Metal"
+        title="Arif Metal Sales"
       >
+        <p >
+           Premium Quality<br/>
+        </p>
       </PageIntro>
       <Container className="mt-16">
         <StatList>
@@ -29,14 +32,14 @@ const WorkPage = () => {
         <Button
           className="mt-14 hover:underline hover:bg-green-500 bg-blue-500 text-bold "
           target="_blank" 
-            href="https://www.arifgroup.in">
-              Click to See Full Catalogue
+            href="https://arifmetal.arifgroup.in">
+              Click to See Arif Metal Catalogue
           </Button>
           </FadeIn>
       </Container>
-      <Sspipes/>
       <Ssaccessories/>
       <Cnc/>
+      <Sspipes/>
       <ScrollToTop/>
       
       

@@ -1,12 +1,12 @@
 import React from "react";
 import Section from "./Section";
-import imageLaptop from "@/images/laptop.jpg";
+import design from "@/images/design.jpg";
 import Blockquote from "./Blockquote";
 import { TagList, TagListItem } from "./TagList";
 
 const Build = () => {
   return (
-    <Section title="Design & Manufacture" image={{ src: imageLaptop, shape: 2 }}>
+    <Section title="Design & Manufacture" image={{ src: design, shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
         Upon approval, we secure the necessary raw materials and assign a dedicated team to your project. Our skilled craftsmen then <strong className="font-semibold text-neutral-950">design, develop, and manufacture</strong> gates, railings, grills, or other required structures with precision.
