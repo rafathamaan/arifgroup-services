@@ -22,7 +22,7 @@ const Offices = ({ invert = false, ...props }) => {
     <ul role="list" {...props}>
       <li>
         <Office name="Arif Fabrication Works" invert={invert}>
-        GST: 36ANRPM3315JIZP <br/>
+        GST: 36ANRPM3315J1ZP <br/>
           Near Khammam X road
           <br />
           Nh-65, Suryapet, 508213
@@ -32,8 +32,7 @@ const Offices = ({ invert = false, ...props }) => {
       </li>
       <li>
         <Office name="Call" invert={invert}>
-          +91 9394098658
-          
+          +91 9394098658 <br/> +91 9100118221
         </Office>
       </li>
      
